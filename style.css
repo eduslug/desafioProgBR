@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(179, 247, 223);
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+
+.square{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(236, 235, 235);
+    border: 1px solid;
+    padding: 20px;
+    cursor: pointer;
+}
+
+button{
+    background-color: rgb(103, 51, 248);
+    font-size: 20px;
+    margin: 25px;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+
+.x{
+    position: relative;
+}
+.o:after{
+    position: absolute;
+    content: '\1F525';
+    font-size: 50px;
+    line-height: 100px;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.o{
+    position: relative;
+}
+.x:after{
+    position: absolute;
+    content: '\2744';
+    font-size: 50px;
+    line-height: 100px;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
